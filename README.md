@@ -1,6 +1,17 @@
 Project For Signals & Systems Course.
+EEG Open vs Closed Eyes – Signals & Systems Project
 
-Involves analyzing electroencephalogram (EEG) signals by separating them into their standard frequency bands and examining each band’s characteristic.
-Uses digital filters or spectral analysis (FFT/Power Spectral Density) to isolate these bands from EEG recordings. By quantifying the signal
-power or activity in each band, we can infer conditions such as relaxation (e.g. increased alpha
-waves) or sleep stages (dominant delta waves).
+This project analyzes EEG signals recorded in **eyes-open** and **eyes-closed** conditions.
+
+Goals:
+- Load multi-channel EEG data
+- Focus on occipital channels (O1, Oz, O2)
+- Apply digital band-pass filters to extract:
+  - Delta (0.5–4 Hz)
+  - Theta (4–8 Hz)
+  - Alpha (8–13 Hz)
+  - Beta (13–30 Hz)
+  - Gamma (30–45 Hz)
+- Compare band power for open vs closed eyes
+
+
