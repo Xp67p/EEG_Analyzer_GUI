@@ -5,10 +5,8 @@ import pandas as pd
 
 from main import closed_avg_band, open_avg_band, bandpass, compute_power
 
+#Headersection
 
-# -------------------------------------------------
-# Header section (formatted cleanly)
-# -------------------------------------------------
 st.set_page_config(page_title="EEG Analyzer", page_icon="🧠", layout="wide")
 
 st.markdown(
@@ -34,16 +32,13 @@ st.markdown(
 st.markdown("---")
 
 
-# -------------------------------------------------
-# Sidebar navigation
-# -------------------------------------------------
+#Sidebar navigation
+
 st.sidebar.header("Menu")
 page = st.sidebar.radio("Select page", ["Overview", "Band Comparison", "Upload & View"])
 
 
-# -------------------------------------------------
-# Overview
-# -------------------------------------------------
+
 if page == "Overview":
     st.subheader("What this program does")
     st.write("""
@@ -54,9 +49,9 @@ if page == "Overview":
     """)
 
 
-# -------------------------------------------------
+
 # Band comparison page
-# -------------------------------------------------
+
 elif page == "Band Comparison":
 
     st.subheader("Dataset Band Comparison")
@@ -94,9 +89,9 @@ elif page == "Band Comparison":
     st.dataframe(df_table)
 
 
-# -------------------------------------------------
+
 # Upload page
-# -------------------------------------------------
+
 elif page == "Upload & View":
 
     st.subheader("Upload EEG CSV File")
