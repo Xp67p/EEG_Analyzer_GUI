@@ -1,5 +1,8 @@
 Project For Signals & Systems Course.
-EEG Open vs Closed Eyes – Signals & Systems Project
+
+
+EEG Open vs Closed Eyes
+
 
 This project analyzes EEG signals recorded in **eyes-open** and **eyes-closed** conditions.
 
