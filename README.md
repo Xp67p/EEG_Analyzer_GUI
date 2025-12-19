@@ -8,6 +8,7 @@ This project analyzes EEG signals recorded in **eyes-open** and **eyes-closed** 
 
 Goals:
 - Load multi-channel EEG data
+- I mainly focused on occipital channels cause they overlie the occipital lobe, the brain's main visual processing center.
 - Focus on occipital channels (O1, Oz, O2)
 - Apply digital band-pass filters to extract:
   - Delta (0.5–4 Hz)
