@@ -7,6 +7,7 @@ EEG Open vs Closed Eyes
 This project analyzes EEG signals recorded in **eyes-open** and **eyes-closed** conditions.
 
 Goals:
+
 - Load multi-channel EEG data
 - I mainly focused on occipital channels cause they overlie the occipital lobe, the brain's main visual processing center.
 - Focus on occipital channels (O1, Oz, O2)
@@ -16,6 +17,7 @@ Goals:
   - Alpha (8–13 Hz)
   - Beta (13–30 Hz)
   - Gamma (30–45 Hz)
+    
 - Compare band power for open vs closed eyes
 
 
