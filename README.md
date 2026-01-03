@@ -1,12 +1,11 @@
 Project For Signals & Systems Course.
 
-
 EEG Open vs Closed Eyes
 
 
 This project analyzes EEG signals recorded in **eyes-open** and **eyes-closed** conditions.
 
-Goals:
+Objectives:
 
 - Load multi-channel EEG data
 - I mainly focused on occipital channels cause they overlie the occipital lobe, the brain's main visual processing center.
