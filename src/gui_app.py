@@ -10,7 +10,7 @@ from main import closed_avg_band, open_avg_band, bandpass, compute_power
 st.set_page_config(page_title="EEG Analyzer", page_icon="🧠", layout="wide")
 
 st.markdown(
-    "<h1 style='text-align:center;'>🧠 EEG Analyzer Dashboard</h1>",
+    "<h1 style='text-align:center;'>EEG Analyzer Dashboard</h1>",
     unsafe_allow_html=True
 )
 
