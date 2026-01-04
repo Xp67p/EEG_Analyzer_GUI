@@ -25,8 +25,8 @@ def compute_power(signal):  # Compute band power
 
 
 # folders
-closed_folder = r"C:\Users\Xp677\Desktop\EEG_Analyzer_GUI\data\closed"
-open_folder   = r"C:\Users\Xp677\Desktop\EEG_Analyzer_GUI\data\open"
+closed_folder = r"C:\Users\Xp677\Desktop\Projects\EEG_Analyzer_GUI\data\closed"
+open_folder   = r"C:\Users\Xp677\Desktop\Projects\EEG_Analyzer_GUI\data\open"
 
 # preload signals (fast version)
 closed_signals = []
@@ -77,8 +77,8 @@ for name, (low, high) in bands.items():
 if __name__ == "__main__":
 
     # Load one example pair
-    closed_signal = load_eeg(r"C:\Users\Xp677\Desktop\EEG_Analyzer_GUI\data\closed\S001.csv")
-    open_signal   = load_eeg(r"C:\Users\Xp677\Desktop\EEG_Analyzer_GUI\data\open\S001.csv")
+    closed_signal = load_eeg(r"C:\Users\Xp677\Desktop\Projects\EEG_Analyzer_GUI\data\closed\S001.csv")
+    open_signal   = load_eeg(r"C:\Users\Xp677\Desktop\Projects\EEG_Analyzer_GUI\data\open\S001.csv")
 
     # Extract alpha band
     closed_alpha = bandpass(closed_signal, 8, 13)
