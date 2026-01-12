@@ -5,6 +5,8 @@ EEG Open vs Closed Eyes
 
 This project analyzes EEG signals recorded in **eyes-open** and **eyes-closed** conditions.
 
+
+
 Objectives:
 
 - Load multi-channel EEG data
@@ -17,6 +19,5 @@ Objectives:
   - Beta (13–30 Hz)
   - Gamma (30–45 Hz)
     
-- Compare band power for open vs closed eyes
 
 
